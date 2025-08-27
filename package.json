@@ -4,13 +4,14 @@
   "version": "0.0.0",
   "type": "module",
   "homepage": "https://unknownfacts23-art.github.io/check",
-  "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
-  },
+
+"scripts": {
+  "dev": "vite",
+  "build": "vite build",
+  "preview": "vite preview",
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d dist"
+},
   "dependencies": {
     "framer-motion": "^12.23.12",
     "lucide-react": "^0.344.0",
